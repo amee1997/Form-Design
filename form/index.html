@@ -1,0 +1,48 @@
+<!--HTML Program for form Design-->
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Form Design</title>
+  </head>
+    <body>
+      <!--Form starts-->
+      <form>
+        <!--Group form elements-->
+        <fieldset>
+           <legend>Your Details</legend>
+              <label>Name:<input type="text" name="name" placeholder="Name"/>
+              </label><br>
+              <label>Email:<input type="text" name="email" placeholder="Email"/>
+              </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+              <legend>Your Review</legend>
+              <p>How did you hear about us?
+                 <select name="information">
+                   <option value="google">Google</option>
+                   <option value="News">News Paper</option>
+                   <option value="tv">TV</option>
+                 </select>
+             </p>
+                 <!--Radio button-->
+              <p>Would you visit again?<br />
+                  <input type ="radio" name="yes" value="y"/>yes
+                  <input type ="radio" name="yes" value="n"/>No
+                  <input type ="radio" name="yes" value="maybe"/>Maybe
+              </p>
+                  <!--Text area-->
+                  <label>Comments:</label>
+                    <br>
+                  <textarea name="comments" rows="5" cols="40" placeholder="Enter the comments"></textarea>
+                    <br>
+                 <p>
+                   <!--Check box-->
+                    <input type="checkbox" name="email" value="email" />Sign me up for email updates
+                 </p>
+                    <input type ="submit" name="Submit review" value="Submit review" />
+          </form>
+          <!--Form ends-->
+    </body>
+</html>
